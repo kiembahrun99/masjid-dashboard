@@ -17,7 +17,7 @@ export default function RamadhanPage() {
   const hariKe = 12; // mock 12 Ramadhan 1447
   return (
     <div className="space-y-6">
-      <PageHeader title="Ramadhan 1447 H" subtitle={`Hari ke-${hariKe} Ramadhan · Imsakiyah Bandung`} />
+      <PageHeader title="Ramadhan 1447 H" subtitle={`Hari ke-${hariKe} Ramadhan · Imsakiyah Surabaya`} />
       <div className="grid grid-cols-3 gap-3">
         <Card className="rounded-3xl p-4 bg-gradient-to-br from-brand-50 to-amber-50 dark:from-amber-950/30 border-amber-200/40 text-center"><p className="text-2xl">🌙</p><p className="text-xl font-extrabold mt-1">{hariKe}</p><p className="text-[11px] text-muted-foreground">Hari Ramadhan</p></Card>
         <Card className="rounded-3xl p-4 text-center"><p className="text-[11px] text-muted-foreground">Zakat Terkumpul</p><p className="text-sm font-extrabold mt-1 tabular-nums">{formatRupiah(zakatTotal,true)}</p><Progress value={65} className="h-1.5 mt-2"/><p className="text-[10px] text-muted-foreground mt-1">65% dari target</p></Card>

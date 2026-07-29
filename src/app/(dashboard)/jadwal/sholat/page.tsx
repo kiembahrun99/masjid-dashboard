@@ -45,7 +45,7 @@ export default function JadwalSholatPage() {
     return () => clearInterval(id);
   }, []);
 
-  const kiblat = 292; // approximate for Bandung
+  const kiblat = 292; // approximate for Surabaya - Lidah Kulon
 
   return (
     <div className="space-y-6">
@@ -104,7 +104,7 @@ export default function JadwalSholatPage() {
         <div>
           <h3 className="font-semibold flex items-center gap-2"><Compass className="w-4 h-4" /> Arah Kiblat</h3>
           <p className="text-sm text-muted-foreground mt-1">{kiblat}° dari Utara</p>
-          <p className="text-xs text-muted-foreground">Untuk wilayah Bandung, Jawa Barat</p>
+          <p className="text-xs text-muted-foreground">Untuk wilayah Surabaya, Jawa Timur — Lidah Kulon, Lakarsantri</p>
         </div>
         <div className="w-20 h-20 rounded-full border-2 border-primary-soft flex items-center justify-center relative">
           <div className="w-1 h-8 bg-primary absolute" style={{ transform: `rotate(${kiblat}deg)`, transformOrigin: 'bottom center', bottom: '50%' }} />

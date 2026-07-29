@@ -9,7 +9,7 @@ interface RamadhanWidgetsProps {
 }
 
 export function ImsakiyahCard({ variant='full' }: RamadhanWidgetsProps) {
-  // Mock imsakiyah for Bandung Ramadhan 1447 ~ Feb 2026
+  // Mock imsakiyah for Surabaya Lidah Kulon Ramadhan 1447 ~ Feb 2026
   const imsakiyah = [
     { day: 1, date: '18 Feb 2026', imsak: '04:28', subuh: '04:38', maghrib: '18:15', isya: '19:26' },
     { day: 2, date: '19 Feb 2026', imsak: '04:28', subuh: '04:38', maghrib: '18:15', isya: '19:26' },
@@ -18,7 +18,7 @@ export function ImsakiyahCard({ variant='full' }: RamadhanWidgetsProps) {
   ];
   return (
     <Card className="rounded-3xl p-5 bg-gradient-to-br from-violet-50 to-indigo-50 dark:from-violet-950/30 dark:to-indigo-950/30 border-violet-200/50">
-      <div className="flex items-center gap-2 mb-3"><div className="w-8 h-8 rounded-xl bg-violet-100 dark:bg-violet-900 flex items-center justify-center"><Moon className="w-4 h-4 text-violet-600"/></div><h3 className="font-bold text-sm">Imsakiyah Ramadhan 1447 H</h3><Badge variant="outline" className="ml-auto rounded-full text-[9px]">Bandung</Badge></div>
+      <div className="flex items-center gap-2 mb-3"><div className="w-8 h-8 rounded-xl bg-violet-100 dark:bg-violet-900 flex items-center justify-center"><Moon className="w-4 h-4 text-violet-600"/></div><h3 className="font-bold text-sm">Imsakiyah Ramadhan 1447 H</h3><Badge variant="outline" className="ml-auto rounded-full text-[9px]">Surabaya - Lidah Kulon</Badge></div>
       <div className="overflow-x-auto"><table className="w-full text-[11px]"><thead><tr className="text-muted-foreground"><th className="text-left py-1">Hari</th><th>Imsak</th><th>Subuh</th><th>Maghrib</th><th>Isya</th></tr></thead><tbody>{imsakiyah.map(r=><tr key={r.day} className="border-t border-border/50"><td className="py-1.5 font-medium">{r.day} · {r.date}</td><td className="text-center font-bold">{r.imsak}</td><td className="text-center">{r.subuh}</td><td className="text-center text-amber-600 font-semibold">{r.maghrib}</td><td className="text-center">{r.isya}</td></tr>)}</tbody></table></div>
       <p className="text-[10px] text-muted-foreground mt-2">Waktu disesuaikan dengan metode Kemenag RI + koreksi {2} menit. Sahur tepat waktu, buka penuh berkah 🌙</p>
     </Card>

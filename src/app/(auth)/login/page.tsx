@@ -129,7 +129,7 @@ export default function LoginPage() {
         </div>
 
         <p className="text-center text-xs text-muted-foreground mt-6">
-          Masjid Al Qohar · Bandung
+          Masjid Al Qohar · Lidah Kulon, Surabaya
         </p>
       </div>
     </div>

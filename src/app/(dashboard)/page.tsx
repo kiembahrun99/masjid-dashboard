@@ -80,7 +80,7 @@ export default function DashboardPage() {
             <div>
               <div className="flex items-center gap-2 text-sm text-white/80 mb-1">
                 <MapPin className="w-3.5 h-3.5" />
-                {db.masjid.nama} · Bandung
+                {db.masjid.nama} · Surabaya
               </div>
               <div className="text-2xl font-bold">{hijri}</div>
             </div>
