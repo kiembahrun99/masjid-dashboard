@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'MasjidKU — Sistem Manajemen Masjid',
-    short_name: 'MasjidKU',
-    description: 'Dashboard manajemen masjid transparan & amanah — keuangan, jadwal, jamaah, ZIS, qurban.',
+    name: 'Masjid Al Qohar Lidah Kulon, Lakarsantri, Surabaya',
+    short_name: 'Al Qohar',
+    description: 'Sistem Manajemen Masjid Al Qohar — keuangan, jadwal, jamaah, ZIS, qurban, TPQ.',
     start_url: '/',
     display: 'standalone',
     background_color: '#F7F8FA',

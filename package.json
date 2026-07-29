@@ -1,7 +1,11 @@
 {
-  "name": "masjid-temp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "masjid-al-qohar-lidah-kulon",
+  "version": "1.0.0",
+  "description": "Sistem Manajemen Masjid Al Qohar Lidah Kulon, Lakarsantri, Surabaya — Next.js 16 + PWA",
+  "private": false,
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "MarwahBahrun <kiembahrun99@outlook.com>",
+  "repository": { "type": "git", "url": "https://github.com/kiembahrun99/masjid-dashboard.git" },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

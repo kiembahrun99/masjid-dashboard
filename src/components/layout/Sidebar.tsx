@@ -44,8 +44,8 @@ export default function Sidebar({ collapsed, onToggle }: { collapsed: boolean; o
           <div className="flex items-center gap-3">
             <span className="text-2xl">🕌</span>
             <div>
-              <h1 className="font-heading font-bold text-base">MasjidKU</h1>
-              <p className="text-[11px] text-muted-foreground -mt-0.5">Al-Ikhlas</p>
+              <h1 className="font-heading font-bold text-base">Masjid Al Qohar</h1>
+              <p className="text-[11px] text-muted-foreground -mt-0.5">Lidah Kulon, Surabaya</p>
             </div>
           </div>
         )}

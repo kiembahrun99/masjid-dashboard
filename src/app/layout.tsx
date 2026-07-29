@@ -7,7 +7,7 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'MasjidKU — Sistem Manajemen Masjid',
+  title: 'Masjid Al Qohar Lidah Kulon, Lakarsantri, Surabaya — Sistem Manajemen Masjid',
   description: 'Sistem manajemen masjid modern: keuangan transparan, jadwal cerdas, jamaah terdata.',
   manifest: '/manifest.webmanifest',
 };

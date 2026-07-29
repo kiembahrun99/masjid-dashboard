@@ -109,7 +109,7 @@ export default function LaporanPage() {
               <hr className="my-3"/>
               <div className="space-y-1"><div className="flex justify-between"><span>Total Pemasukan</span><b>{formatRupiah(totalMasuk)}</b></div><div className="flex justify-between"><span>Total Pengeluaran</span><b>{formatRupiah(totalKeluar)}</b></div><div className="flex justify-between font-bold text-sm pt-2 border-t"><span>Saldo Kas</span><span>{formatRupiah(totalMasuk-totalKeluar)}</span></div></div>
               <div className="mt-4"><div className="font-semibold mb-1">Rincian 5 transaksi terakhir</div>{db.transaksi.slice(0,5).map(t=><div key={t.id} className="flex justify-between text-[10px]"><span>{t.tanggal} · {t.uraian.slice(0,36)}</span><span className="tabular-nums">{formatRupiah(t.nominal,true)}</span></div>)}</div>
-              <div className="text-right mt-6 text-[10px] text-muted-foreground">Mengetahui, Bendahara · Laporan otomatis dari MasjidKU</div>
+              <div className="text-right mt-6 text-[10px] text-muted-foreground">Mengetahui, Bendahara · Laporan otomatis dari Masjid Al Qohar</div>
             </div>
           </Card>
         </TabsContent>

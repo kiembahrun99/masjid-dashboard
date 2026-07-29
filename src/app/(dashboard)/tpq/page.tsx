@@ -92,7 +92,7 @@ export default function TpqPage() {
 
   return (
     <div className="space-y-6">
-      <PageHeader title="TPQ Al-Ikhlas" subtitle="Taman Pendidikan Al-Quran — kelola santri, jadwal & hafalan" action={{ label: 'Tambah Santri', onClick: () => setShowModal(true) }} />
+      <PageHeader title="TPQ Al Qohar" subtitle="Taman Pendidikan Al-Quran — kelola santri, jadwal & hafalan" action={{ label: 'Tambah Santri', onClick: () => setShowModal(true) }} />
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
         <StatCard title="Total Santri Aktif" value={`${totalAktif} anak`} icon={Users} iconColor="text-emerald-600" iconBg="bg-emerald-50" format="text" />

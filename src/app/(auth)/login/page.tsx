@@ -40,7 +40,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="text-5xl mb-3">🕌</div>
-          <h1 className="text-3xl font-heading font-bold tracking-tight">MasjidKU</h1>
+          <h1 className="text-3xl font-heading font-bold tracking-tight">Masjid Al Qohar</h1>
           <p className="text-sm text-muted-foreground mt-1">Sistem Manajemen Masjid Modern</p>
         </div>
 
@@ -129,7 +129,7 @@ export default function LoginPage() {
         </div>
 
         <p className="text-center text-xs text-muted-foreground mt-6">
-          Masjid Al-Ikhlas · Bandung
+          Masjid Al Qohar · Bandung
         </p>
       </div>
     </div>

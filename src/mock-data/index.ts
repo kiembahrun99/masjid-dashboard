@@ -10,18 +10,18 @@ const today = now.toISOString().split('T')[0];
 
 export const mockMasjid: Masjid = {
   id: 'msj-1',
-  nama: 'Masjid Al-Ikhlas',
-  alamat: 'Jl. Merdeka No. 123',
-  kelurahan: 'Sukamaju',
-  kecamatan: 'Cibeureum',
-  kota: 'Bandung',
-  provinsi: 'Jawa Barat',
-  latitude: -6.9175,
-  longitude: 107.6191,
+  nama: 'Masjid Al Qohar',
+  alamat: 'Jl. Lidah Kulon No. 45, Lidah Kulon',
+  kelurahan: 'Lidah Kulon',
+  kecamatan: 'Lakarsantri',
+  kota: 'Surabaya',
+  provinsi: 'Jawa Timur',
+  latitude: -7.2969,
+  longitude: 112.6749,
   logoUrl: '',
   fotoUrl: '',
-  telepon: '022-1234567',
-  email: 'masjid.alikhlas@email.com',
+  telepon: '031-1234567',
+  email: 'masjid.alqohar@email.com',
   rekeningBank: 'Bank Syariah Indonesia',
   nomorRekening: '1234567890',
   qrisUrl: '',
@@ -116,11 +116,11 @@ const nextDays = (days: number) => {
 };
 
 export const mockAgenda: Agenda[] = [
-  { id: 'ag-1', judul: 'Kajian Rutin Rabu Malam', deskripsi: 'Kajian tafsir Al-Quran bersama Ustadz Ahmad', jenis: 'KAJIAN_RUTIN', tanggalMulai: nextDays(0), tanggalSelesai: nextDays(0), lokasi: 'Masjid Al-Ikhlas', pemateri: 'Ustadz Ahmad Fauzi', recurring: true, recurringRule: 'WEEKLY', status: 'RENCANA' },
+  { id: 'ag-1', judul: 'Kajian Rutin Rabu Malam', deskripsi: 'Kajian tafsir Al-Quran bersama Ustadz Ahmad', jenis: 'KAJIAN_RUTIN', tanggalMulai: nextDays(0), tanggalSelesai: nextDays(0), lokasi: 'Masjid Al Qohar', pemateri: 'Ustadz Ahmad Fauzi', recurring: true, recurringRule: 'WEEKLY', status: 'RENCANA' },
   { id: 'ag-2', judul: 'Rapat DKM Bulanan', deskripsi: 'Pembahasan program kerja bulan depan', jenis: 'RAPAT_DKM', tanggalMulai: nextDays(1), tanggalSelesai: nextDays(1), lokasi: 'Ruang Serbaguna', recurring: false, status: 'RENCANA' },
   { id: 'ag-3', judul: 'Kajian Akbar: Malam Jumat', deskripsi: 'Kajian umum dengan Ustadz kondang', jenis: 'KAJIAN_AKBAR', tanggalMulai: nextDays(3), tanggalSelesai: nextDays(3), lokasi: 'Halaman Masjid', pemateri: 'Ustadz Abdul Somad', recurring: false, status: 'RENCANA' },
   { id: 'ag-4', judul: 'Pengajian Ibu-Ibu', deskripsi: 'Pengajian rutin pekanan ibu-ibu', jenis: 'PENGAJIAN_IBU', tanggalMulai: nextDays(2), tanggalSelesai: nextDays(2), lokasi: 'Aula Masjid', pemateri: 'Ustadzah Fatimah', recurring: true, recurringRule: 'WEEKLY', status: 'RENCANA' },
-  { id: 'ag-5', judul: 'Santunan Anak Yatim', deskripsi: 'Pembagian santunan bulanan', jenis: 'SANTUNAN', tanggalMulai: nextDays(5), tanggalSelesai: nextDays(5), lokasi: 'Masjid Al-Ikhlas', recurring: false, status: 'RENCANA' },
+  { id: 'ag-5', judul: 'Santunan Anak Yatim', deskripsi: 'Pembagian santunan bulanan', jenis: 'SANTUNAN', tanggalMulai: nextDays(5), tanggalSelesai: nextDays(5), lokasi: 'Masjid Al Qohar', recurring: false, status: 'RENCANA' },
   { id: 'ag-6', judul: 'Kerja Bakti Lingkungan', deskripsi: 'Bersih-bersih masjid dan lingkungan sekitar', jenis: 'KERJA_BAKTI', tanggalMulai: nextDays(7), tanggalSelesai: nextDays(7), lokasi: 'Lingkungan Masjid', recurring: false, status: 'RENCANA' },
   { id: 'ag-7', judul: 'Event Remaja: Islamic Youth Camp', deskripsi: 'Kegiatan kepemudaan Islami', jenis: 'EVENT_REMAJA', tanggalMulai: nextDays(14), tanggalSelesai: nextDays(16), lokasi: 'Bumi Perkemahan', recurring: false, status: 'RENCANA' },
 ];

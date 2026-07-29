@@ -147,7 +147,7 @@ export default function PengaturanPage() {
         {/* Org DKM */}
         <TabsContent value="org" className="mt-4">
           <Card className="rounded-3xl p-6 shadow-[0_2px_12px_rgba(15,23,42,0.06)]">
-            <h3 className="font-bold text-sm mb-6">Struktur Organisasi DKM Masjid Al-Ikhlas</h3>
+            <h3 className="font-bold text-sm mb-6">Struktur Organisasi DKM Masjid Al Qohar</h3>
             <div className="flex flex-col items-center gap-3">
               <div className="flex flex-col items-center">
                 <div className="px-6 py-3 rounded-2xl bg-gradient-to-br from-violet-500 to-purple-600 text-white shadow-lg flex items-center gap-2"><Crown className="w-4 h-4"/><div><div className="text-xs font-bold">Ketua DKM</div><div className="text-[11px] text-white/80">H. Ahmad Sanusi</div></div></div>
